@@ -14,7 +14,7 @@ html, body{
   src: url(./fonts/Square.ttf) format("truetype");
 }
 
-.absolute-bg {
+.bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,6 +26,10 @@ html, body{
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+.homebg {
+  background: black;
 }
 
 .title {
@@ -97,6 +101,24 @@ html, body{
 }
 
 
+
+.fade-in {
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+/* Home Page */
 
 
 /* button styling */
