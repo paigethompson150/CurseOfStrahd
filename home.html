@@ -6,15 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
-  <title>Document</title>
+  <title>Home</title>
 </head>
-<body>
- 
-  <section class="fog">
+<body id="body">
+
+  <section class="fog fade-in">
     <div class="bg homebg"></div>
     <div class="fog-container">
       <div class="fog-img fog-img-first"></div>
+      <div class="fog-img fog-img-second"></div>
     </div>
+
+    <div class="box fade-in">
+      <div class="characters">
+        <a href="javascript:void" onclick="onBtnClickHandle('characters.html')">
+          <h1>Characters</h1>
+          <div class="imgBox">
+            <img src="imgs/sorcerer.gif" alt="shaking soldier">
+          </div>
+        </a>
+      </div>
+
+      <div class="campaign">
+        <a href="javascript:void" onclick="onBtnClickHandle('campaign.html')">
+          <h2>Campaign</h2>
+          <div class="imgBox">
+            <img src="imgs/dice.gif" alt="dice">
+           </div>
+        </a>
+      </div>
+    </div>
+      
   </section>
 </body>
 </html>

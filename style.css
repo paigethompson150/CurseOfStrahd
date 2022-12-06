@@ -14,7 +14,7 @@ html, body{
   src: url(./fonts/Square.ttf) format("truetype");
 }
 
-.body {
+#body {
   background-color: black;
 }
 
@@ -106,7 +106,7 @@ html, body{
 
 
 .fade-in {
-  animation: fadeInAnimation ease 6s;
+  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -120,6 +120,20 @@ html, body{
    }
 }
 
+.fade-out {
+  animation: fadeOutAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
 
 /* Home Page */
 
@@ -164,3 +178,51 @@ html, body{
     padding: .75rem 1.5rem;
   }
 }
+
+
+
+
+
+/* Home */
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-weight: 100;
+  font-size: 2em;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.box img {
+  width: 350px;
+}
+
+.characters img {
+  padding-top: 40px;
+  width: 500px;
+}
+
+.characters, .campaign {
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s box-shadow;
+  border-radius: 75px;
+  width: 45%;
+  height: 60%;
+}
+
+.characters:hover, .campaign:hover {
+  box-shadow: 0 5px 35px 0px rgba(234, 232, 232, 0.803);
+}
+
+.characters a, .campaign a{
+  color: white;
+  text-decoration: none;
+}
+
