@@ -112,7 +112,7 @@ a {
 
 
 .fade-in {
-  animation: fadeInAnimation ease 4s;
+  animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -127,7 +127,7 @@ a {
 }
 
 .fade-out {
-  animation: fadeOutAnimation ease 2s;
+  animation: fadeOutAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
