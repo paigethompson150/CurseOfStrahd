@@ -18,6 +18,10 @@ html, body{
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 .bg {
   position: absolute;
   top: 0;
@@ -257,6 +261,11 @@ html, body{
   width: 200px;
 }
 
+.navBar {
+  position: absolute;
+  z-index: 10001;
+}
+
 
 
 
@@ -281,3 +290,40 @@ html, body{
   }
 
 }
+
+
+/* Skills Buttons */
+
+
+
+/* Individual Pages */
+.characterBioBox {
+  padding-top: 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.stats li {
+  display: inline-block;
+  text-decoration: none;
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .stats li {
+    display: block;
+  }
+  html { 
+    height: 2500px;
+  }
+  .fog-container{
+    height: 2500px;
+  }
+  .fog-img {
+    background-size: cover;
+    height: 100%;
+  }
+
+}
+
