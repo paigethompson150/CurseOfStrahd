@@ -226,3 +226,54 @@ html, body{
   text-decoration: none;
 }
 
+
+/* Characters */
+.characterList{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  max-width: 100vh;
+}
+
+.characterItem {
+  padding: 10px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 10%;
+  text-align: center;
+  height: 450px;
+  width: 250px;
+  transition: 1s box-shadow;
+  border-radius: 50px;
+}
+
+.characterItem:hover{
+  box-shadow: 0 5px 35px 0px rgba(234, 232, 232, 0.803);
+}
+
+.characterItem img {
+  width: 200px;
+}
+
+
+
+
+/* Character Page Media Queries */
+@media screen and (max-width: 1200px) {
+  .characterList {
+    display:inline;
+  }
+  .characterItem {
+    height: 400px;
+    width: 500px;
+  }
+  html { 
+    height: 100%;
+  }
+  .fog-container{
+    height: 100vh;
+  }
+
+}
