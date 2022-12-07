@@ -1,6 +1,8 @@
 html, body{
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
   font-family: "Square";
 }
 
@@ -245,7 +247,7 @@ a {
   padding: 10px;
   margin-left: 4%;
   margin-right: 4%;
-  margin-top: 10%;
+  margin-top: 18%;
   text-align: center;
   height: 450px;
   width: 250px;
@@ -263,33 +265,12 @@ a {
 
 .navBar {
   position: absolute;
+  left: 40px;
+  top: 20px;
   z-index: 10001;
 }
 
 
-
-
-/* Character Page Media Queries */
-@media screen and (max-width: 1200px) {
-  .characterList {
-    display:inline;
-  }
-  .characterItem {
-    height: 400px;
-    width: 500px;
-  }
-  html { 
-    height: 2500px;
-  }
-  .fog-container{
-    height: 2500px;
-  }
-  .fog-img {
-    background-size: cover;
-    height: 100%;
-  }
-
-}
 
 
 /* Skills Buttons */
@@ -298,7 +279,7 @@ a {
 
 /* Individual Pages */
 .characterBioBox {
-  padding-top: 15%;
+  padding-top: 10%;
   display: inline-block;
   text-align: center;
 }
@@ -310,20 +291,20 @@ a {
   
 }
 
-@media screen and (max-width: 1200px) {
-  .stats li {
-    display: block;
-  }
-  html { 
-    height: 2500px;
-  }
-  .fog-container{
-    height: 2500px;
-  }
-  .fog-img {
-    background-size: cover;
-    height: 100%;
-  }
-
+.imgBox img{
+  border-radius: 50%;
 }
 
+
+.babaBg {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.characterStory {
+  text-align: center;
+  min-width: 500px;
+  max-width: 800px;
+}

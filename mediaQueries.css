@@ -1,0 +1,16 @@
+
+    @media screen and (max-width: 1200px) {
+      .stats li {
+        display: block;
+      }
+      html { 
+        height: 2500px;
+      }
+      /*.fog-container{
+        height: 2500px;
+      }
+      .fog-img {
+        background-size: cover;
+        min-height: 100%;
+      }**/
+    }
