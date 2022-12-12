@@ -242,7 +242,7 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 0.8em;
-  max-width: 100vh;
+  max-width: 100vw;
 }
 
 .characterItem {
@@ -255,6 +255,19 @@ a {
   width: 250px;
   transition: 1s box-shadow;
   border-radius: 50px;
+}
+
+.funeral {
+  position: relative;
+  bottom: -550px;
+}
+
+.funeral img {
+  width: 220px;
+}
+
+.funeral img:hover {
+
 }
 
 .characterItem:hover{

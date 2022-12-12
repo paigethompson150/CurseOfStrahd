@@ -29,6 +29,23 @@
     height: 100%;
     width: 700px;
   }
+  .fog-img-first{
+    background: black;
+  }
+  .fog-img-second{
+    background: black;
+  }
+  .funeral{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 300px;
+    margin-left: -500px;
+    align-self: flex-start;
+  }
+  .box{
+    height: 2750px;
+  }
 
 }
   </style>
@@ -76,15 +93,15 @@
             </div>
           </div>
         </a>
-        <a href="javascript:void" onclick="onBtnClickHandle('./characters/mixy.html')">
+        <!--<a href="javascript:void" onclick="onBtnClickHandle('./characters/mixy.html')">
           <div class="Mixy characterItem">
-            <h1>Mixy</h1>
+            <h1>Mxy</h1>
             <div class="characterBio">
               <img src="imgs/Mxy_of_the_Star.png" alt="">
               <h4>Level 5 Goblin, Druid</h4>
             </div>
           </div>
-        </a>
+        </a>-->
         <a href="javascript:void" onclick="onBtnClickHandle('./characters/daniel.html')">
           <div class="Daniel characterItem">
             <h1>Dungeon Master</h1>
@@ -93,6 +110,11 @@
               <h4>Level 22 Human, Canadian</h4>
             </div>
           </div>
+        </a>
+      </div>
+      <div class="characterList funeral">
+        <a href="javascript:void" onclick="onBtnClickHandle('./characters/graveyard.html')">
+            <img src="./imgs/rip.png.crdownload" alt=""> 
         </a>
       </div>
     </div>
